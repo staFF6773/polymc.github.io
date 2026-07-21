@@ -11,8 +11,9 @@ eleventyNavigation:
       <div>
         <h1>macOS Download</h1>
         <br>
-        <p><strong>Note:</strong> Although the PolyMC binary is universal, old versions of Minecraft still run on Rosetta.</p>
-        <a class="button is-big" href="https://github.com/PolyMC/PolyMC/releases/download/{{ version.current }}/PolyMC-macOS-{{ version.current }}.tar.gz">Download (Universal)</a>
+        <p><strong>Note:</strong> The current build is Apple Silicon (aarch64) only. For Intel Macs, use the Legacy build below.</p>
+        <a class="button is-big" href="https://github.com/PolyMC/PolyMC/releases/download/{{ version.current }}/PolyMC-macOS-{{ version.current }}.tar.gz">Download (aarch64)</a>
+        <a class="button is-big" href="https://github.com/PolyMC/PolyMC/releases/download/{{ version.current }}/PolyMC-macOS-Legacy-{{ version.current }}.tar.gz">Download Legacy (Universal)</a>
       </div>
     </div>
     <div class="column">

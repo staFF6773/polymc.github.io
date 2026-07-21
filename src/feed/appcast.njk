@@ -32,6 +32,13 @@ eleventyExcludeFromCollections: true
             type="application/octet-stream"
             sparkle:edSignature="{{ post.data.mac_signature }}"/>
         {%- endif %}
+        {%- if post.data.legacy_mac_signature %}
+        <enclosure sparkle:os="macos"
+            url="https://github.com/PolyMC/PolyMC/releases/download/{{ post.data.release_version }}/PolyMC-macOS-Legacy-{{ post.data.release_version }}.tar.gz"
+            length="0"
+            type="application/octet-stream"
+            sparkle:edSignature="{{ post.data.legacy_mac_signature }}"/>
+        {%- endif %}
       </item>
     {%- endif %}
     {%- if post.data.release_version and post.data.win32_signature and post.data.win64_signature %}
