@@ -564,8 +564,6 @@ a.direct-link:focus-visible,
 
 .column img {
   height: auto;
-  border-radius: var(--radius-md);
-  box-shadow: var(--shadow-lg);
 }
 
 .subtitle {

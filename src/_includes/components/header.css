@@ -196,11 +196,6 @@ nav {
   margin: var(--space-sm);
 }
 
-.hero-body .column img {
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-lg);
-}
-
 header .container {
   flex-direction: column;
 }
